@@ -1,6 +1,18 @@
-<p align="center">
-  <img src="./assets/flowers.svg" width="100%" alt="Hafsa Imtiaz"/>
-</p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1c1228,50:7c5c82,100:d3a6f0&height=160&section=header&text=Hafsa%20Imtiaz&fontSize=46&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%" alt="Hafsa Imtiaz"/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=2800&pause=900&color=F5D576&center=true&vCenter=true&width=700&lines=Building+Multi-Agent+LLM+Systems;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now" alt="Typing SVG"/>
+</a>
+
+<br/>
+
+<sub>LangGraph &middot; RAG &middot; Fine-tuning &middot; Computer Science</sub>
+
+<img src="./assets/flowers.svg" width="100%" alt=""/>
+
+</div>
 
 <img src="./assets/flowers-side.svg" align="left" width="70" alt=""/>
 <img src="./assets/flowers-side.svg" align="right" width="70" alt=""/>
@@ -35,20 +47,22 @@
 
 <br clear="all"/>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/hafsa-imtiaz-cs/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:hafsa7076@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D26AA6?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/hafsa-imtiaz">
-    <img src="https://img.shields.io/badge/GitHub-6E5A86?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="./assets/waves.svg" width="100%" alt=""/>
-</p>
+<a href="https://www.linkedin.com/in/hafsa-imtiaz-cs/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="mailto:hafsa7076@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D26AA6?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://github.com/hafsa-imtiaz">
+  <img src="https://img.shields.io/badge/GitHub-6E5A86?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<br/><br/>
+
+<img src="./assets/waves.svg" width="100%" alt=""/>
+
+</div>
