@@ -11,17 +11,10 @@
 <div align="center">
 
 <h1> Hafsa Imtiaz </h1>
-
-<a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Georgia&size=22&duration=2800&pause=900&color=F5D576&center=true&vCenter=true&width=700&lines=Building+Multi-Agent+LLM+Systems;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now"
-    alt="Typing SVG"
-  />
-</a>
+<sub><strong>LangGraph</strong> · <strong>RAG</strong> · <strong>Fine-tuning</strong> · <strong>Computer Science</strong></sub>
 
 <br/>
 
-<sub><strong>LangGraph</strong> · <strong>RAG</strong> · <strong>Fine-tuning</strong> · <strong>Computer Science</strong></sub>
 </div>
 
 
@@ -70,6 +63,12 @@
 </a>
 
 <br/><br/>
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Georgia&size=22&duration=2800&pause=900&color=F5D576&center=true&vCenter=true&width=700&lines=Building+Multi-Agent+LLM+Systems;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now"
+    alt="Typing SVG"
+  />
+</a>
 
 <img src="./assets/waves.svg" width="100%" alt=""/>
 
