@@ -11,7 +11,7 @@
 <div align="center">
 
 # Hafsa Imtiaz
-<h3><strong>LangGraph</strong> · <strong>RAG</strong> · <strong>Fine-tuning</strong> · <strong>Computer Science</strong></h3>
+<h3><strong>Computer Science</strong> · <strong>Multi‑Agent Systems</strong> · <strong>Fine-tuning</strong> · <strong>Applied ML</strong></h3>
 
 
 
