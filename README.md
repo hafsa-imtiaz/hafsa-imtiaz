@@ -10,7 +10,7 @@
 
 <div align="center">
 
-# Hafsa Imtiaz
+<h1> Hafsa Imtiaz </h1>
 
 <a href="https://git.io/typing-svg">
   <img
