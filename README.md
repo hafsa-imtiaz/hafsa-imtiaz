@@ -10,16 +10,13 @@
 
 <div align="center">
 
-<h1> Hafsa Imtiaz </h1>
-<sub><strong>LangGraph</strong> · <strong>RAG</strong> · <strong>Fine-tuning</strong> · <strong>Computer Science</strong></sub>
+# Hafsa Imtiaz
+<h3><strong>LangGraph</strong> · <strong>RAG</strong> · <strong>Fine-tuning</strong> · <strong>Computer Science</strong></h3>
 
-<br/>
+
 
 </div>
-
-
-<h2 align="center">Tech Stack</h2>
-
+<br/>
 <p align="center"><strong>Languages</strong></p>
 
 <p align="center">
