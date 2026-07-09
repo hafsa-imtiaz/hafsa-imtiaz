@@ -1,15 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1c1228,50:7c5c82,100:d3a6f0&height=160&section=header&text=Hafsa%20Imtiaz&fontSize=46&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%" alt="Hafsa Imtiaz"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=2800&pause=900&color=F5D576&center=true&vCenter=true&width=700&lines=Building+Multi-Agent+LLM+Systems;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now" alt="Typing SVG"/>
-</a>
-
-<br/>
-
-<sub>LangGraph &middot; RAG &middot; Fine-tuning &middot; Computer Science</sub>
-
 <img src="./assets/flowers.svg" width="100%" alt=""/>
 
 </div>
