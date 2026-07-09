@@ -7,6 +7,24 @@
 <img src="./assets/flowers-side.svg" align="left" width="70" alt=""/>
 <img src="./assets/flowers-side.svg" align="right" width="70" alt=""/>
 
+
+<div align="center">
+
+# Hafsa Imtiaz
+
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Georgia&size=22&duration=2800&pause=900&color=F5D576&center=true&vCenter=true&width=700&lines=Building+Multi-Agent+LLM+Systems;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now"
+    alt="Typing SVG"
+  />
+</a>
+
+<br/>
+
+<sub><strong>LangGraph</strong> · <strong>RAG</strong> · <strong>Fine-tuning</strong> · <strong>Computer Science</strong></sub>
+</div>
+
+
 <h2 align="center">Tech Stack</h2>
 
 <p align="center"><strong>Languages</strong></p>
