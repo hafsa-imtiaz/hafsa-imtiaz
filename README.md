@@ -1,15 +1,9 @@
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr>
+<img src="https://cdn.jsdelivr.net/gh/hafsa-imtiaz/hafsa-imtiaz@main/assets/flowers-side.svg" align="left" width="70" alt=""/>
+<img src="https://cdn.jsdelivr.net/gh/hafsa-imtiaz/hafsa-imtiaz@main/assets/flowers-side.svg" align="right" width="70" alt=""/>
 
-<!-- Left flower strip -->
-<td width="70" valign="top">
-<img src="assets/flowers-side.svg" width="70" alt=""/>
-</td>
+<div align="center">
 
-<!-- Main content -->
-<td align="center" valign="top">
-
-<img src="assets/flowers.svg" width="100%" alt="Hafsa Imtiaz"/>
+<img src="https://cdn.jsdelivr.net/gh/hafsa-imtiaz/hafsa-imtiaz@main/assets/flowers.svg" width="100%" alt="Hafsa Imtiaz"/>
 
 <br/>
 
@@ -17,17 +11,15 @@
 
 <p><strong>Languages</strong></p>
 
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js,cs,html,css" alt="languages"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,java,js,cs" alt="languages"/>
 
 <br/><br/>
 
-<p><strong>AI / ML Core</strong></p>
+<p><strong>AI / ML</strong></p>
 
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn" alt="ai-ml"/>
 
-<br/><br/>
-
-<p><strong>AI / ML Frameworks</strong></p>
+<br/>
 
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph"/>
@@ -43,20 +35,11 @@
 
 <br/><br/>
 
-</td>
+</div>
 
-<!-- Right flower strip -->
-<td width="70" valign="top">
-<img src="assets/flowers-side.svg" width="70" alt=""/>
-</td>
+<br clear="all"/>
 
-</tr>
-</table>
-
-<!-- Contact links — below the flower strips -->
 <div align="center">
-
-<br/>
 
 <a href="https://www.linkedin.com/in/hafsa-imtiaz-cs/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -72,6 +55,6 @@
 
 <br/><br/>
 
-<img src="assets/waves.svg" width="100%" alt=""/>
+<img src="https://cdn.jsdelivr.net/gh/hafsa-imtiaz/hafsa-imtiaz@main/assets/waves.svg" width="100%" alt=""/>
 
 </div>

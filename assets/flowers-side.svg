@@ -1,10 +1,5 @@
 <svg width="70" height="720" viewBox="0 0 70 720" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!--
-      Gradient mirrors the hero's fade but scaled to this taller strip.
-      The hero is 250px tall; this strip is 720px.
-      We want the background to be fully gone by ~250px (H35% of 720).
-    -->
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"   stop-color="#1c1228" stop-opacity="1"/>
       <stop offset="11%"  stop-color="#3b2352" stop-opacity="1"/>
@@ -13,74 +8,142 @@
       <stop offset="35%"  stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <g id="f">
-      <rect x="-3" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
-      <rect x="-9" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
-      <rect x="3"  y="-3" width="6" height="6" shape-rendering="crispEdges"/>
-      <rect x="-3" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
-      <rect x="-3" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
-    </g>
   </defs>
 
   <rect width="70" height="720" fill="url(#bg)"/>
 
-  <!-- Pink  4 flowers across the 70px strip -->
+  <!-- Pink flowers (each <g> = one flower: outer animates fall, inner translates to x + rotates) -->
   <g fill="#f7a8cf" opacity="0.82">
-    <use href="#f" x="12">
+
+    <g><!-- x=12 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.0s" begin="-1.4s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 12 0;360 12 0"   dur="7.0s" begin="-1.4s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="58">
+      <rect x="9"  y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="3"  y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="15" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="9"  y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="9"  y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=58 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.6s" begin="-5.3s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 58 0;-360 58 0"  dur="7.6s" begin="-5.3s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="35">
+      <rect x="55" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="49" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="61" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="55" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="55" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=35 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="6.8s" begin="-2.8s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 35 0;360 35 0"   dur="6.8s" begin="-2.8s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="20">
+      <rect x="32" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="26" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="38" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="32" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="32" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=20 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.3s" begin="-6.5s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 20 0;-360 20 0"  dur="7.3s" begin="-6.5s" repeatCount="indefinite" additive="sum"/>
-    </use>
+      <rect x="17" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="11" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="23" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="17" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="17" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
   </g>
 
-  <!-- Lavender  4 flowers -->
+  <!-- Lavender flowers -->
   <g fill="#d3a6f0" opacity="0.82">
-    <use href="#f" x="35">
+
+    <g><!-- x=35 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.4s" begin="-3.7s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 35 0;360 35 0"   dur="7.4s" begin="-3.7s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="58">
+      <rect x="32" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="26" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="38" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="32" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="32" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=58 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="6.9s" begin="-0.9s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 58 0;-360 58 0"  dur="6.9s" begin="-0.9s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="12">
+      <rect x="55" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="49" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="61" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="55" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="55" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=12 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.5s" begin="-4.9s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 12 0;360 12 0"   dur="7.5s" begin="-4.9s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="48">
+      <rect x="9"  y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="3"  y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="15" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="9"  y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="9"  y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=48 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.1s" begin="-7.2s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 48 0;-360 48 0"  dur="7.1s" begin="-7.2s" repeatCount="indefinite" additive="sum"/>
-    </use>
+      <rect x="45" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="39" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="51" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="45" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="45" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
   </g>
 
-  <!-- Yellow  4 flowers -->
+  <!-- Yellow flowers -->
   <g fill="#f5d576" opacity="0.82">
-    <use href="#f" x="58">
+
+    <g><!-- x=58 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.2s" begin="-0.3s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 58 0;360 58 0"   dur="7.2s" begin="-0.3s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="12">
+      <rect x="55" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="49" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="61" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="55" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="55" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=12 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="6.7s" begin="-6.2s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 12 0;-360 12 0"  dur="6.7s" begin="-6.2s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="35">
+      <rect x="9"  y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="3"  y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="15" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="9"  y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="9"  y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=35 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.6s" begin="-1.7s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 35 0;360 35 0"   dur="7.6s" begin="-1.7s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#f" x="25">
+      <rect x="32" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="26" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="38" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="32" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="32" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
+    <g><!-- x=25 -->
       <animateTransform attributeName="transform" type="translate" values="0,-15;0,735" dur="7.0s" begin="-4.3s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="rotate"    values="0 25 0;-360 25 0"  dur="7.0s" begin="-4.3s" repeatCount="indefinite" additive="sum"/>
-    </use>
+      <rect x="22" y="-9" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="16" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="28" y="-3" width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="22" y="3"  width="6" height="6" shape-rendering="crispEdges"/>
+      <rect x="22" y="-3" width="6" height="6" shape-rendering="crispEdges" opacity="0.85"/>
+    </g>
+
   </g>
 </svg>
