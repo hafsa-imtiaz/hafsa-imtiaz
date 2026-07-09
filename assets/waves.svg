@@ -1,0 +1,179 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Soft pastel gradients -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8E8FF"/>
+      <stop offset="50%" stop-color="#D7A8FF"/>
+      <stop offset="100%" stop-color="#FFE5F5"/>
+    </linearGradient>
+
+    <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#F9D8EE"/>
+      <stop offset="50%" stop-color="#C8A2FF"/>
+      <stop offset="100%" stop-color="#F4E6FF"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Long smooth wave -->
+  <path id="wave1"
+        d="M-100 70
+           C120 10 250 130 430 70
+           S760 15 930 70
+           S1180 120 1320 70"
+        fill="none"
+        stroke="url(#grad1)"
+        stroke-width="2.2"
+        opacity="0.55"
+        filter="url(#glow)"
+        stroke-linecap="round">
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;50 0;0 0"
+        dur="10s"
+        repeatCount="indefinite"/>
+  </path>
+
+  <!-- Smaller elegant wave -->
+  <path
+        d="M-120 82
+           C80 55 190 105 320 82
+           C470 56 610 108 760 82
+           C920 56 1080 105 1320 82"
+        fill="none"
+        stroke="url(#grad2)"
+        stroke-width="1.6"
+        opacity="0.45"
+        stroke-linecap="round">
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;-40 0;0 0"
+        dur="8s"
+        repeatCount="indefinite"/>
+  </path>
+
+  <!-- Gentle sine wave -->
+  <path
+        d="M-100 98
+           Q0 85 100 98
+           T300 98
+           T500 98
+           T700 98
+           T900 98
+           T1100 98
+           T1300 98"
+        fill="none"
+        stroke="url(#grad1)"
+        stroke-width="1.3"
+        opacity="0.32"
+        stroke-dasharray="5 10"
+        stroke-linecap="round">
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;30 0;0 0"
+        dur="12s"
+        repeatCount="indefinite"/>
+  </path>
+
+  <!-- Spiral-like decorative curve -->
+  <path
+        d="M80 50
+           C110 18 160 18 180 45
+           C195 65 185 88 160 95
+           C135 101 110 90 108 72"
+        fill="none"
+        stroke="#F6D5FF"
+        stroke-width="1.4"
+        opacity="0.28">
+
+      <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;10 0;0 0"
+          dur="9s"
+          repeatCount="indefinite"/>
+  </path>
+
+  <!-- Decorative swirl -->
+  <path
+        d="M1040 52
+           C1075 15 1130 18 1150 50
+           C1166 76 1146 100 1112 102
+           C1084 103 1060 84 1064 60"
+        fill="none"
+        stroke="#E7C7FF"
+        stroke-width="1.4"
+        opacity="0.3">
+
+      <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;-12 0;0 0"
+          dur="11s"
+          repeatCount="indefinite"/>
+  </path>
+
+  <!-- Floating sparkle curves -->
+  <path
+        d="M300 30
+           q10 -10 20 0
+           q10 10 20 0"
+        fill="none"
+        stroke="#FFF4FF"
+        stroke-width="1"
+        opacity="0.45">
+
+      <animate attributeName="opacity"
+               values="0.15;0.5;0.15"
+               dur="3.5s"
+               repeatCount="indefinite"/>
+  </path>
+
+  <path
+        d="M880 108
+           q10 -10 20 0
+           q10 10 20 0"
+        fill="none"
+        stroke="#FFF4FF"
+        stroke-width="1"
+        opacity="0.4">
+
+      <animate attributeName="opacity"
+               values="0.1;0.45;0.1"
+               dur="4.8s"
+               repeatCount="indefinite"/>
+  </path>
+
+  <!-- Tiny twinkles -->
+  <g opacity="0.45">
+    <circle cx="460" cy="36" r="1.6" fill="#FFF8FF">
+      <animate attributeName="r" values="1;2.3;1" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="760" cy="112" r="1.4" fill="#FFF8FF">
+      <animate attributeName="r" values="1;2;1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1030" cy="28" r="1.5" fill="#FFF8FF">
+      <animate attributeName="r" values="1;2.2;1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.75;0.15" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+</svg>
