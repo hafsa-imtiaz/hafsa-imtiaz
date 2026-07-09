@@ -1,6 +1,10 @@
 <div align="center">
 
-# 🌸 Hafsa Imtiaz
+<img src="https://raw.githubusercontent.com/hafsa-imtiaz/hafsa-imtiaz/main/assets/flowers.svg" width="100%" alt="falling flowers"/>
+
+# Hafsa Imtiaz
+
+**Computer Scientist working on AI/ML**
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=2800&pause=900&color=B98CC9&center=true&vCenter=true&width=650&lines=Building+Multi-Agent+LLM+Systems+%F0%9F%8C%B8;LangGraph+%E2%80%A2+RAG+%E2%80%A2+Fine-tuning;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now+%F0%9F%8C%B7" alt="Typing SVG"/>
@@ -22,15 +26,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/hafsa-imtiaz/hafsa-imtiaz/main/assets/flowers.svg" width="100%" alt="falling flowers"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-## 🌼 Tech Stack
+## Tech Stack
 
 **Languages**
 
@@ -56,6 +52,8 @@
 
 **Frameworks & Tools**
 
-<img src="https://skillicons.dev/icons?i=fastapi,react,express,mongodb,postgres,docker,git,linux" alt="tools"/>
+<img src="https://skillicons.dev/icons?i=fastapi,react,express,mongodb,postgres,docker,git,linux,azure" alt="tools"/>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2b2440,50:7c5c82,100:d3a6f0&height=100&section=footer&animation=fadeIn" width="100%"/>
