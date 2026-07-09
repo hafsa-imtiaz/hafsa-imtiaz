@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hafsa-imtiaz/hafsa-imtiaz/main/assets/flowers.svg" width="100%" alt="falling flowers"/>
+<img src="https://cdn.jsdelivr.net/gh/hafsa-imtiaz/hafsa-imtiaz@main/assets/flowers.svg" width="100%" alt="falling flowers"/>
 
 # Hafsa Imtiaz
 
-**Computer Scientist working on AI/ML**
-
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=2800&pause=900&color=B98CC9&center=true&vCenter=true&width=650&lines=Building+Multi-Agent+LLM+Systems+%F0%9F%8C%B8;LangGraph+%E2%80%A2+RAG+%E2%80%A2+Fine-tuning;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now+%F0%9F%8C%B7" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=2800&pause=900&color=B98CC9&center=true&vCenter=true&width=650&lines=Building+Multi-Agent+LLM+Systems+%F0%9F%8C%B8;LangGraph+%E2%80%A2+RAG+%E2%80%A2+Fine-tuning;Turning+Ideas+into+Intelligent+Systems;Probably+Debugging+an+Agent+Right+Now;Computer Scientist working on AI/ML" alt="Typing SVG"/>
 </a>
 
 <br/>
