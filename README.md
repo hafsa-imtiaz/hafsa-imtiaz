@@ -47,6 +47,10 @@
 
 <div align="center">
 
+<a href="https://hafsa-imtiaz.github.io/portfolio-site/">
+  <img src="https://img.shields.io/badge/Portfolio-14152C?style=flat-square&logo=googlechrome&logoColor=F5D576" alt="Portfolio"/>
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/hafsa-imtiaz-cs/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
